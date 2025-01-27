@@ -23,6 +23,13 @@ The application shows the use of React components , props, states, events and ro
 4.Run the app locally
    npm start
 
+## Usage
+-Start the app 
+-Check the bots collection
+-Click on a bot to add it to "your army"
+-Navigate to "Your army" to view the added bots
+-Click on a bot to remove it from he army
+
 
 ## Technology Used
 -React.js: A javascript library to build the user interface
