@@ -5,9 +5,9 @@ function BotCard({bot, setArmy, inArmy}){
     const handleClick = () => {
         setArmy((prevArmy) => {
             if(inArmy){
-                return prevArmy.filter((b) => b.id !== bot.id); // Remove bot from army
+                return prevArmy.filter((b) => b.id !== bot.id); 
             } else {
-                return prevArmy.find((b)=> b.id === bot.id) ? prevArmy : [...prevArmy, bot]; // Add bot to army
+                return prevArmy.find((b)=> b.id === bot.id) ? prevArmy : [...prevArmy, bot]; 
             }
         });
         }
